@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BH.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <img src="photos/эмблема.png" alt="">
+            </div>
+
+            <nav>
+                <a href="">Главная</a>
+                <a href="">О нас</a>
+                <a href="">Продукция</a>
+                <a href="">Контакты</a>
+            </nav>
+
+            <button class="contact-btn">
+                Связаться
+            </button>
+        </header>
+
+        <section class="hero">
+            <div class="hero-text">
+
+                <h1>
+                    Природа <br>
+                    любит тебя
+                </h1>
+
+                <p>
+                    Свежесть горных источников в каждом глотке
+                </p>
+
+                <button class="product-btn">
+                    Наша продукция →
+                </button>
+
+            </div>
+
+            <div class="video-wrapper">
+
+                <button class="sound-btn">
+                    🔇
+                </button>
+
+                <video id="heroVideo" autoplay muted loop playsinline>
+                    <source src="IMG_4595.MOV" type="video/mp4">
+                </video>
+
+            </div>
+
+        </section>
+
+        <section class="about">
+            <div class="about-content">
+                <p>
+                    Где-то среди гор Тувы вода остаётся такой,
+                    какой её создала природа — холодной,
+                    чистой и настоящей.
+                </p>
+                <p>
+                    «Бай-Хаак Аква» — это вода из Терехтинского
+                    месторождения, расположенного у подножия
+                    хребта Танну-Ола.
+                </p>
+                <p>
+                    Без лишнего. Просто мягкий вкус,
+                    природная свежесть и ощущение лёгкости
+                    с первого глотка.
+                </p>
+            </div>
+        </section>
+
+        <section class="catalog" id="catalog">
+
+            <h2>Наша продукция</h2>
+
+            <div class="catalog-slider">
+
+                <button class="slider-btn prev">❮</button>
+
+                <div class="products-wrapper">
+
+                    <div class="product-card left" id="left-card">
+                        <img id="left-img" src="">
+                        <h3 id="left-title"></h3>
+                        <p id="left-volume"></p>
+                    </div>
+
+                    <div class="product-card center" id="center-card">
+                        <img id="center-img" src="">
+                        <h3 id="center-title"></h3>
+                        <p id="center-volume"></p>
+                    </div>
+
+                    <div class="product-card right" id="right-card">
+                        <img id="right-img" src="">
+                        <h3 id="right-title"></h3>
+                        <p id="right-volume"></p>
+                    </div>
+
+                </div>
+
+                <button class="slider-btn next">❯</button>
+
+            </div>
+
+            <div class="slider-dots"></div>
+
+        </section>
+
+        <section class="contacts">
+
+            <div class="contacts-left">
+
+                <span class="contacts-subtitle">
+                    Контакты
+                </span>
+
+                <h2>
+                    Свяжитесь с нами
+                </h2>
+
+                <p class="contacts-text">
+                    Мы открыты для сотрудничества,
+                    оптовых поставок и новых партнёрств.
+                </p>
+
+                <div class="contact-item">
+                    📍 Республика Тыва, с. Бай-Хаак
+                </div>
+
+                <div class="contact-item">
+                    📞 +7 (999) 999-99-99
+                </div>
+
+                <div class="contact-item">
+                    ✉ info@bayhaak.ru
+                </div>
+
+                <div class="socials">
+
+                    <a href="#" class="social">
+                        VK
+                    </a>
+
+                    <a href="#" class="social">
+                        TG
+                    </a>
+
+                    <a href="#" class="social">
+                        INST
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="contacts-right">
+
+                <div class="contact-card">
+
+                    <h3>
+                        Бай-Хаак Аква
+                    </h3>
+
+                    <p>
+                        Натуральная вода и напитки,
+                        созданные в самом сердце Тувы.
+                    </p>
+
+                    <div class="stats">
+
+                        <div class="stat">
+                            <span>15+</span>
+                            <p>видов напитков</p>
+                        </div>
+
+                        <div class="stat">
+                            <span>100%</span>
+                            <p>контроль качества</p>
+                        </div>
+
+                    </div>
+
+                    <div class="mini-qr">
+
+                        <img src="photos/qr.png" alt="QR код">
+
+                        <p>
+                            Перейти на сайт
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
